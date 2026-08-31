@@ -1,6 +1,6 @@
 # DSA-QUEUE-HW
 
-Trabalho em grupo de EDA-UEM, Fila estática utilizando vetor e  dinâmica utilizando lista encadeada.
+Trabalho em grupo de EDA-UEM, Fila estática utilizando vetor e fila dinâmica utilizando lista encadeada.
 
 ### Integrantes do grupo:
 Brito, Shaquil Zurate<br>
