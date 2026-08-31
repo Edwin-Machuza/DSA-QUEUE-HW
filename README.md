@@ -3,8 +3,8 @@
 Trabalho em grupo de EDA-UEM, Fila estática utilizando vetor e  dinâmica utilizando lista encadeada.
 
 ### Integrantes do grupo:
-Brito, Shaquil Zurate
-Canhe, Júlio Monis
-Gune, Euclides Jorge
-Machuza, Edwin Bernardo
+Brito, Shaquil Zurate<br>
+Canhe, Júlio Monis<br>
+Gune, Euclides Jorge<br>
+Machuza, Edwin Bernardo<br>
 Mapanzene, Gaudêncio Alexandre
