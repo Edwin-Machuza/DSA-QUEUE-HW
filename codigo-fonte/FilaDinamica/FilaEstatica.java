@@ -44,9 +44,8 @@ public class FilaEstatica implements InterfaceFilaEstatica {
 
     @Override
     public void percorrerFila(){
-        while(inicio <= tamanho){
-            IO.println(elementos[inicio]+", ");
-            inicio++;
+        for(int i = inicio; i < tamanho; i++){
+            IO.print(elementos[i]+" ");
         }
     }
 
