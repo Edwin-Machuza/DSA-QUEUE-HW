@@ -183,7 +183,7 @@ public class ListaDinamica1 {
         if(listaLigada.isElement(12)){
             System.out.println("O valor é elemento da fila.");
         }else{
-            System.out.println("O elemento não é elemento da fila.");
+            System.out.println("O valor não é elemento da fila.");
         }
 
         listaLigada.quantidadePar();
