@@ -191,6 +191,24 @@ public class ListaDinamica2 {
     }
 
     public static void main(String[] args) {
+        ListaDinamica2 l1= new ListaDinamica2();
+        ListaDinamica2 l2 = new ListaDinamica2();
+
+        ListaDinamica2 l3 = new ListaDinamica2();
+
+        l1.enqueue(10);
+        l1.enqueue(5);
+        l1.enqueue(7);
+
+        l2.enqueue(13);
+        l2.enqueue(17);
+        l2.enqueue(0);
+
+
+
+        l3 = l1.produzirCopiaLista();
+
+        l3.displayQueue();
 
     }
 
