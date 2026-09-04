@@ -1,10 +1,9 @@
-package util;
 
 public interface InterfaceFilaEstatica {
 
     void inserirElemento(int value);
 
-    int removerElemento(int value);
+    void removerElemento(int value);
 
     int frente();
 

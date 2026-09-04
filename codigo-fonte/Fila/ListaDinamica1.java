@@ -1,4 +1,4 @@
-
+//package  DSA-QUEUE-HW.codigo-fonte.FilaDinamica;
 
 public class ListaDinamica1 {
     //Parte 1
@@ -165,7 +165,7 @@ public class ListaDinamica1 {
         return somaElementos;
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         //Parte 1:
         ListaDinamica1 listaLigada = new ListaDinamica1();
 
@@ -179,11 +179,11 @@ public class ListaDinamica1 {
         listaLigada.displayQueue();
 
         System.out.println("A fila possui "+listaLigada.getTamanho()+" elementos armazenados.");
-
-        if(listaLigada.isElement(12)){
-            System.out.println("O valor é elemento da fila.");
+        int x = 7;
+        if(listaLigada.isElement(x)){
+            System.out.println("O valor "+x+ " é elemento da fila.");
         }else{
-            System.out.println("O valor não é elemento da fila.");
+            System.out.println("O valor " +x +" não é elemento da fila.");
         }
 
         listaLigada.quantidadePar();

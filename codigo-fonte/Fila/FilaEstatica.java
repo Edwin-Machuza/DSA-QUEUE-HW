@@ -1,4 +1,4 @@
-package util;
+
 
 public class FilaEstatica implements InterfaceFilaEstatica {
 
@@ -32,14 +32,13 @@ public class FilaEstatica implements InterfaceFilaEstatica {
     }
 
     @Override
-    public int removerElemento(int value) {
+    public void removerElemento(int value) {
         if(filaVazia()){
             throw new RuntimeException("Erro: fila vazia!");
         }
         elementos[inicio] = value;
         inicio = (inicio + 1) % capacidade;
         tamanho--;
-        return value;
     }
 
     @Override
