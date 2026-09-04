@@ -4,60 +4,68 @@ void main() throws IOException {
     BufferedReader br = new BufferedReader(isr);
     FilaEstatica fe = new FilaEstatica(10);
 
-    int option, number;
+    int option, generalOption, number;
+
 
     do {
-        showMenu();
-        option = Integer.parseInt(br.readLine());
+        do {
 
-        switch (option) {
+        } while ();
 
-            case 1:
-                IO.print("Numero: ");
-                number = Integer.parseInt(br.readLine());
-                fe.inserirElemento(number);
-                IO.println("Elemento adicionado com sucesso!\n");
-                break;
+        do {
+            showMenu();
+            option = Integer.parseInt(br.readLine());
 
-            case 2:
-                IO.println("Numero: ");
-                number = Integer.parseInt(br.readLine());
-                fe.removerElemento(number);
-                IO.println("Elemento removido com sucesso!\n");
-                break;
+            switch (option) {
 
-            case 3:
-                IO.print("Digite o indice: ");
-                number = Integer.parseInt(br.readLine());
-                IO.println(fe.buscarElemento(number));
-                break;
+                case 1:
+                    IO.print("Numero: ");
+                    number = Integer.parseInt(br.readLine());
+                    fe.inserirElemento(number);
+                    IO.println("Elemento adicionado com sucesso!\n");
+                    break;
 
-            case 4:
-                fe.contarParesImpares();
-                break;
+                case 2:
+                    IO.println("Numero: ");
+                    number = Integer.parseInt(br.readLine());
+                    fe.removerElemento(number);
+                    IO.println("Elemento removido com sucesso!\n");
+                    break;
 
-            case 5:
-                fe.maiorMenor();
-                break;
+                case 3:
+                    IO.print("Digite o indice: ");
+                    number = Integer.parseInt(br.readLine());
+                    IO.println(fe.buscarElemento(number));
+                    break;
 
-            case 6:
-                IO.println("\n+====+Inverter+====+");
-                fe.inverterVetor();
-                break;
+                case 4:
+                    fe.contarParesImpares();
+                    break;
 
-            case 7:
-                IO.println("========FILA=======");
-                fe.percorrerFila();
-                break;
+                case 5:
+                    fe.maiorMenor();
+                    break;
 
-            case 8:
-                break;
+                case 6:
+                    IO.println("\n+====+Inverter+====+");
+                    fe.inverterVetor();
+                    break;
 
-            default:
-                IO.print("Opcao invalida!");
+                case 7:
+                    IO.println("========FILA=======");
+                    fe.percorrerFila();
+                    break;
 
-        }
-    } while (option != 8);
+                case 8:
+                    break;
+
+                default:
+                    IO.print("Opcao invalida!");
+
+            }
+        } while (option != 8);
+
+    } while ();
 
 }
 
